@@ -38,18 +38,18 @@ h5 {
     font-family: 'Abril Fatface';
 }
 
-ul {
+nav ul {
     margin: .5rem 0 .5rem 0;
     padding: 0;
     text-align: center;
 }
 
-li {
+nav li {
     list-style-type: none;
     display: inline-block;
 }
 
-a {
+nav a {
     color: #777;
     text-decoration: none;
     padding: 0 .75rem 0 .25rem;
@@ -57,11 +57,15 @@ a {
 }
 
 nav {
-    border-bottom: solid 1px #eee;
-    border-top: solid 1px #eee;
+    border-bottom: solid 2px #eee;
+    border-top: solid 2px #eee;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
 }
 
-section {
+.article-one {
     width: 40%;
     display: inline-block;
     text-align: center;
@@ -69,7 +73,7 @@ section {
 }
 
 .more-articles {
-    border-top: solid 1px #eee; 
+    border-top: solid 2px #eee; 
 }
 
 img {
@@ -77,4 +81,35 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+}
+
+.article-three {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    margin: 0 2.5rem 0 3rem;
+}
+
+.article-three p {
+    font-size: .85rem;
+}
+
+footer {
+    border-top: double 4px #777;
+}
+
+footer h2 {
+    font-family: 'Abril Fatface';
+}
+
+.footer-subtitles h3{
+    display: inline-block;
+    padding: 0 3.5rem 0 0;
+    text-align: left;
+    margin: auto;
+}
+
+.subscribe {
+    border-left: solid 1px #777;
+    margin-right: 1rem;
 }
